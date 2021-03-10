@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #555555;
@@ -1778,4 +1778,8 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+}
+
+#topbar .container>ul>li>a{
+color: white !important;
 }

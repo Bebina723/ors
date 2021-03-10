@@ -21,10 +21,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/civil', function () {
     return view('civil');
 });
@@ -42,4 +38,7 @@ Route::get('/index', function () {
 });
 Route::get('/appointments', function () {
     return view('appointments');
+});
+Route::get('/contactus', function () {
+    return view('contactus');
 });

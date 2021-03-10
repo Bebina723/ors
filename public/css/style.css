@@ -3,7 +3,8 @@ body{
 	padding:0px;
 	overflow-x:hidden;
 }
-
+main
+{ margin-top:50px !important;}
 
 .navbar{
 	background-color:transparent !important;
@@ -19,5 +20,11 @@ body{
 }
 
 .collapse>ul>li>a{
-color: green !important;
+color: #3fbbc0 !important;
+}
+.collapse>ul>li>a:hover {
+	color: white !important;
+  text-decoration: underline;
+text-shadow: 5px;
+	background-color: #65c9cd ;
 }
