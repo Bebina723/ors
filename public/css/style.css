@@ -1,0 +1,23 @@
+body{
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+
+
+.navbar{
+	background-color:transparent !important;
+	border:0px;
+	border-radius:0px;
+  padding:5px;
+	margin: 0px;
+
+}
+
+.navbar-brand{
+	color:green !important;
+}
+
+.collapse>ul>li>a{
+color: green !important;
+}
